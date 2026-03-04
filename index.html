@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Viaje</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="layout-principal">
+        
+        <aside class="barra-lateral">
+            <nav>
+                </nav>
+        </aside>
+
+        <div class="contenido-derecho">
+            
+            <header>
+                <h1>Mi Viaje en una Página Web</h1>
+            </header>
+            
+            <main>
+                <section class="sobre-mi">
+                    <div class="perfil-contenedor">
+                        <img src="img/perfil.png" alt="Foto de perfil" class="perfil">
+
+                        <div class="info-personal">
+                            <h2>Sobre mí</h2>
+                            <p>
+                                Hola, soy José Ángel.
+                                Soy ingeniero en sistemas computacionales, yo soy originario de un Jonuta, Tabasco.
+                                Soy aficionado a la tecnologia, me gusta disfrutar de video juegos en mis tiempos libres.
+                                Actualmente estoy cursando mi sexto semestre en la División Académica de Ciencias y Tecnologías de la Información
+                                perteneciente a la Universidad Juárez Autónoma de Tabasco. 
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="viaje">
+                    <center><h2>Lugar 1 - Playa larga</h2></center>
+                    <p>
+                        Este es un pequeño poblado lleno de biodiversidad.
+                        yo visito recurrente mente este poblado ya que tengo familia en ese lugar.
+                        Este lugar suele ser comodo ya que no esta lleno de los ruidos recurrentes de ciudad.
+                        hablando de la diversidad, por aquí suelen haber loros, el mono auyador, venados, etc.
+                        En este lugar pase gran parte de mi niñes así que es muy importante para mi.
+                        Es un lugar muy hermoso y tranquilo.
+                    </p>
+
+                    <div class="galeria">
+                        <img src="img/imagen1.png" alt="Lugar 1 imagen 1">
+                        <img src="img/imagen2.png" alt="Lugar 1 imagen 2">
+                        <img src="img/imagen3.png" alt="Lugar 1 imagen 3">
+                    </div>
+                </section>
+
+                <section class="viaje">
+                    <center><h2>Lugar 2 - Palenque</h2></center>
+                    <p>
+                        Realmente no he salido mucho pero he visitado sitios interesantes.
+                        Aunque ya ha pasado algo de tiempo puedo recordar algunas cosas del viaje.
+                        Visitamos varios lugares, entre ellos la Zona Arqueológica y las Cascadas de Agua Azul.
+                        Para este viaje lo hicimos entre 2 familias.
+                        Nuestra visita fue emocionante y la recuerdo como uno de lo pocos lugares que he visitado.
+                    </p>
+
+                    <div class="galeria">
+                        <img src="img/imagen4.png" alt="Lugar 2 imagen 1">
+                        <img src="img/imagen5.png" alt="Lugar 2 imagen 2">
+                        <img src="img/imagen6.png" alt="Lugar 2 imagen 3">
+                    </div>
+                </section>
+            
+                <section class="viaje suscripcion">
+                    <center><h2>¡Únete a la Aventura!</h2></center>
+                    <p style="text-align: center;">Suscríbete para recibir mas información acerca de mi directamente en tu correo.</p>
+                    
+                    <form id="form-suscripcion" class="form-container">
+                        <input type="text" id="nombre_usuario" placeholder="Tu Nombre" required>
+                        <input type="email" id="correo_usuario" placeholder="Tu Correo Electrónico" required>
+                        <button type="submit" id="btn-suscribir">Suscribirse</button>
+                    </form>
+                    
+                    <p id="mensaje-estado" style="text-align: center; display: none; font-weight: bold; margin-top: 15px;"></p>
+                </section>
+
+            </main>
+            
+            <footer>
+                <p>© 2026 - JOSÉ ÁNGEL JAVIER RUIZ</p>
+            </footer>
+
+        </div> </div> <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
